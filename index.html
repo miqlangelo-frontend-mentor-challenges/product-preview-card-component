@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Montserrat&display=swap"
+    rel="stylesheet">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="./tailwind.config.js"></script>
+</head>
+
+<body>
+  <main class="min-h-screen bg-cream flex items-center justify-center p-4">
+    <div class="max-w-sm w-full bg-white rounded-lg shadow-md overflow-hidden flex flex-col md:flex-row md:max-w-2xl">
+      <div class="flex-1">
+
+        <picture>
+          <source media="(min-width: 768px)" srcset="./images/image-product-desktop.jpg">
+          <img class="w-full h-full object-cover" src="./images/image-product-mobile.jpg"
+            alt="Perfume Gabrielle Essence" />
+        </picture>
+      </div>
+
+
+      <div class="p-5 flex flex-1 flex-col gap-3 my-1">
+        <p class="text-sm text-dark-grayish-blue uppercase tracking-[0.45rem] font-semibold">
+          Perfume
+        </p>
+        <h1 class="text-3xl md:text-5xl font-fraunces leading-[2.25rem] font-bold">
+          Gabrielle Essence Eau De Parfum
+        </h1>
+        <p class="text-dark-grayish-blue text-md md:text-lg">
+          A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for
+          the House of CHANEL.
+        </p>
+        <div class="font-fraunces flex items-center gap-6 my-4">
+          <span class="text-4xl font-bold text-dark-cyan">$149.99</span>
+          <span class="text-sm line-through text-dark-grayish-blue">$169.99</span>
+        </div>
+        <button
+          class="w-full bg-dark-cyan text-white p-3 rounded-lg flex items-center justify-center gap-3 hover:bg-very-dark-cyan">
+          <img src="./images/icon-cart.svg" alt="Cart Icon" />
+          Add to Cart
+        </button>
+      </div>
+    </div>
+  </main>
+</body>
+
+</html>
