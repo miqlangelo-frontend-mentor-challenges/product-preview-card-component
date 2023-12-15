@@ -36,8 +36,7 @@ Mobile
 
 ### Links
 
--   Solution URL: [Add solution URL here](https://your-solution-url.com)
--   Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+-   Live Demo: [Live Demo](https://miqlangelo-frontend-mentor-challenges.github.io/product-preview-card-component/)
 
 ## My process
 
@@ -51,7 +50,9 @@ Mobile
 Arbitrary values in Tailwind CSS are custom values that you can specify directly in a class without having to define them first in tailwind.config.js
 
 ```html
-<p class="text-[20px] text-[red]">Red text with a font-size of 20px!</p>
+<p class="text-[20px] text-[red]">
+    Red text with a font-size of 20px!
+</p>
 ```
 
 ### Useful resources
